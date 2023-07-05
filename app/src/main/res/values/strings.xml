@@ -1,0 +1,79 @@
+<resources>
+    <!--Tela principal do aplicativo-->
+    <string name="app_name">AppNovoVipClienteLegal v1</string>
+    <string name="btnCadastros">CADASTRO NOVO USUARIO</string>
+    <string name="txtHoraAtual">10:05:00</string>
+    <string name="txtDataAtual">03/01/2023</string>
+    <string name="txtTitulo">APLICATIVO CLIENTE LEGAL VIP</string>
+    <string name="btnVoltar">VOLTAR</string>
+
+    <!-- tela de login-->
+    <string name="txtlogin">LOGIN</string>
+    <string name="txtlembrar">Lembrar</string>
+    <string name="txtSenha_vip">Digite sua senha de acesso</string>
+    <string name="edtEmail">Digite seu e-mail cadastrado</string>
+    <string name="Recuperar_senha">Recuperar senha</string>
+    <string name="btnAcessar">ACESSAR</string>
+    <string name="btnSejaVip">SEJA VIP</string>
+    <string name="txtVersao">Versao 01</string>
+    <string name="TxtTermo">Ler a politica de privacidade e o termo de uso</string>
+
+    <!--Formulario de cadastro do usuario-->
+
+    <string name="txtFinalizacaoCadastro">CREDENCIAIS DE ACESSO</string>
+    <string name="txtNome">Nome</string>
+    <string name="EdtNome">Digite seu nome</string>
+    <string name="txtE_mail">E-mail</string>
+    <string name="edtE_mail">Digite seu e-mail</string>
+    <string name="txtSenha">Password</string>
+    <string name="edtSenha">Digite sua senha</string>
+    <string name="txtSenhaB">Repita senha</string>
+    <string name="edtSenhaB">confirme sua senha</string>
+    <string name="ckTermo">Li e concordo com os termo de uso de politica de privacidade</string>
+    <string name="btnCadastro">CADASTRO</string>
+    <string name="title_activity_cliente_vip">ClienteVipActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Tela Novo Cliente Vip -->
+    <string name="txtNovoVip">"Novo VIP"</string>
+    <string name="txtPrimeiroNome">"Primeiro Nome"</string>
+    <string name="txtSobreNome">"SobreNome"</string>
+    <string name="txtHintSobreNome">"Digite seu sobreNome"</string>
+    <string name="cbkPessoaFisica">"Pessoa Fisica"</string>
+    <string name="btnSalvarContinuar">"SALVAR E CONTINUAR"</string>
+    <string name="btnCancelar">"CANCELAR"</string>
+    <string name="pessoa_fisica">PESSOA FISICA</string>
+    <string name="cpf">CPF</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="digite_seu_nome_completo">Digite seu nome completo</string>
+    <string name="digite_seu_cpf">Digite seu CPF</string>
+    <string name="btnvoltar">VOLTAR</string>
+    <string name="pessoa_juridica">PESSOA JURIDICA</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="digite_seu_cnpj">Digite seu CNPJ</string>
+    <string name="razao_social">Razao social</string>
+    <string name="digite_sua_razao_social">Digite sua Razao social</string>
+    <string name="data_de_abt_empresa">Data da abertura da empresa</string>
+    <string name="data_de_abertura">Digite a data de abertura</string>
+    <string name="simples_nacional">Simples Nacional</string>
+    <string name="mei">MEI</string>
+    <string name="recuperar_senha">RECUPERAR SENHA</string>
+    <string name="bem_vindo">BEM - VINDO</string>
+    <string name="meus_dados">MEUS DADOS</string>
+    <string name="atualizar_meus_dados">ATUALIZAR MEUS DADOS</string>
+    <string name="excluir_minha_conta">EXCLUIR MINHA CONTA</string>
+    <string name="consultar_cliente_vip">CONSULTAR CLIENTE VIP</string>
+    <string name="sair_do_aplicativo">SAIR DO APLICATIVO</string>
+    <string name="title_activity_consultar_clientes">ConsultarClientesActivity</string>
+    <string name="txtcliente">Cliente</string>
+    <string name="txtHintEmailCadastrado">Email</string>
+
+
+</resources>

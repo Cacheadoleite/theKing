@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="adandroid.v2.appnovovipclientelegal.view.PessoaJuridicaActivity">
+
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="383dp"
+        android:layout_height="37dp"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+
+        android:id="@+id/txtPJuridica"
+        android:layout_width="380dp"
+        android:layout_height="36dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:text="@string/pessoa_juridica"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAppName" />
+
+    <TextView
+        android:id="@+id/txtCNPJ"
+        android:layout_width="142dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/cnpj"
+        android:textColor="@color/verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPJuridica" />
+
+    <EditText
+        android:id="@+id/edtCNPJ"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/digite_seu_cnpj"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCNPJ" />
+
+    <TextView
+        android:id="@+id/txtRazaoSocial"
+        android:layout_width="137dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/razao_social"
+        android:textColor="@color/verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtCNPJ" />
+
+    <EditText
+        android:id="@+id/edtRazaoSocial"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/digite_sua_razao_social"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRazaoSocial"
+        tools:ignore="TextFields" />
+
+    <TextView
+        android:id="@+id/txtDAbEmpresa"
+        android:layout_width="137dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/data_de_abt_empresa"
+        android:textColor="@color/verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtRazaoSocial" />
+
+    <EditText
+        android:id="@+id/edtDAbEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/data_de_abertura"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDAbEmpresa"
+        tools:ignore="TextFields" />
+
+    <CheckBox
+        android:id="@+id/cbkSimpleNacional"
+        android:layout_width="184dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="cbSimples"
+        android:text="@string/simples_nacional"
+        android:textColor="@color/verde"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDAbEmpresa" />
+
+    <CheckBox
+        android:id="@+id/cbkMei"
+        android:layout_width="169dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="cbMEI"
+        android:text="@string/mei"
+        android:textColor="@color/verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/cbkSimpleNacional"
+        app:layout_constraintTop_toBottomOf="@+id/edtDAbEmpresa" />
+
+    <Button
+        android:id="@+id/btnSalvarContinuar"
+        android:layout_width="361dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnSalvarContinuar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbkMei" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="362dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnCancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSalvarContinuar" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="362dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnvoltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCancelar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="adandroid.v2.appnovovipclientelegal.view.ClienteVipActivity">
+
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="383dp"
+        android:layout_height="37dp"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+
+        android:id="@+id/txtLogin"
+        android:layout_width="380dp"
+        android:layout_height="36dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:text="@string/txtNovoVip"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAppName" />
+
+    <TextView
+        android:id="@+id/txtPrimeiroNome"
+        android:layout_width="142dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtPrimeiroNome"
+        android:textColor="@color/verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLogin" />
+
+    <EditText
+        android:id="@+id/edtPrimeiroNome"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/EdtNome"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrimeiroNome" />
+
+    <TextView
+        android:id="@+id/txtSobreNome"
+        android:layout_width="137dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtSobreNome"
+        android:textColor="@color/verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtPrimeiroNome" />
+
+    <EditText
+        android:id="@+id/edtSobreNome"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/txtHintSobreNome"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobreNome"
+        tools:ignore="TextFields" />
+
+    <CheckBox
+        android:id="@+id/cbkPessoaFisicar"
+        android:layout_width="226dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:onClick="cbpessoaFisica"
+        android:text="@string/cbkPessoaFisica"
+        android:textColor="@color/verde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSobreNome" />
+
+    <Button
+        android:id="@+id/btnSalvarContinuar"
+        android:layout_width="361dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnSalvarContinuar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbkPessoaFisicar" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="362dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnCancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSalvarContinuar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

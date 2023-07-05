@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppNovoVipClienteLegal"
+        tools:targetApi="31" >
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.CredencialDeAcessoActivity"
+            android:exported="false" />
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.ConsultarClientesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_consultar_clientes" />
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.RecuperarSenhaActivity"
+            android:exported="false" />
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.PessoaJuridicaActivity"
+            android:exported="false" />
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.PessoaFisicaActivity"
+            android:exported="false" />
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.ClienteVipActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cliente_vip" />
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="adandroid.v2.appnovovipclientelegal.view.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
